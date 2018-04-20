@@ -1,0 +1,154 @@
+/* CSS Document */
+
+.autorotateimg90{
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+body
+{
+	/*background-color:#4A338E;*/
+}
+
+#loginfrm
+{
+	float:right;
+	margin-top:12px;
+	font-family:Arial;
+	font-size:14px;
+	margin:auto;
+	text-align:center;
+}
+
+#loginfrm input
+{
+	padding:12px 12px 12px 12px;
+	border:none;
+}
+
+#loginfrm button
+{
+	padding:12px 12px 12px 12px;
+	font-size:14px;
+}
+
+header
+{
+	margin-top:-4px;
+	padding:0px 2px 6px 2px;
+	background-color:#4A338E;
+	color:white;
+	height:60px;
+	margin:auto;
+	width:100%;
+	text-align:center;
+}
+
+#header_sub
+{
+	width:100%;
+	margin: auto;
+}
+
+
+#menu_btns
+{
+	float:left;
+	margin-top:25px;
+}
+
+#menu_btns a
+{
+	padding:8px 8px 8px 8px;
+	margin-right:10px;
+	font-size:14px;
+	font-weight:bold;
+	font-family: Arial;
+	color:white;
+	text-decoration:none;
+	background-color:#795FC5;
+	border-radius:6px;
+}
+
+#body{
+	width:100%;
+	margin:auto;
+}
+
+#errorMessage{
+	font-weight:bold;
+	font-family:Arial;
+	color:red;
+}
+
+#signupfrm{
+	width:100%;
+	color:black;
+}
+
+#signup_tb{
+	font-family:Arial;
+	margin:Auto;
+	border:2px black solid;
+	width:100%;
+}
+
+#signup_tb caption
+{
+	font-weight:bold;
+	font-size:32px;
+	color:black;
+}
+
+#signup_tb input{
+	font-size:14px;
+	padding:12px 12px 12px 12px;
+}
+
+#signup_tb select{
+	padding:12px 12px 12px 12px;
+	font-size:14px;
+}
+
+#sidemenu{
+	float:left;
+	list-style:none;
+	font-family:Arial;
+	width:200px;
+	border:1px black solid;
+	padding:4px 4px 4px 4px;
+	border-radius:4px;
+}
+
+#sidemenu div{
+	line-height:40px;	
+}
+
+#sidemenu button{
+	color:white;
+	font-size:16px;
+	text-decoration:none;
+	font-weight:bold;
+	background-color:#795FC5;
+	border:none;
+	border-radius:4px;
+	padding:8px 8px 8px 8px;
+	width:100%;
+}
+
+.button_style1
+{
+	color:white;
+	font-size:16px;
+	text-decoration:none;
+	font-weight:bold;
+	background-color:#795FC5;
+	border:none;
+	border-radius:4px;
+	padding:8px 8px 8px 8px;
+	width:100%;
+}
+

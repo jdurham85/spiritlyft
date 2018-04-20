@@ -1,0 +1,279 @@
+/* CSS Document */
+
+.autorotateimg90{
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+body
+{
+	/*background-color:#F7F5FB;*/
+	background-color:#EFECF7;
+	margin: auto;
+}
+
+#loginfrm
+{
+	float:right;
+	font-family:Arial;
+	font-size:14px;
+	margin-top: -45px;
+}
+
+#loginfrm input
+{
+	padding:6px 6px 6px 6px;
+	border:none;
+}
+
+#loginfrm button
+{
+	padding:6px 6px 6px 6px;
+	font-size:14px;
+}
+
+.forgot-password
+{
+	list-style:none;
+	color:white;
+	font-family:arial;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+header
+{
+	background-color:#8672C1;
+	color:white;
+	height:60px;
+	width:100%;
+	padding:0px 0px 0px 0px;
+	float: left;
+}
+
+#header_sub
+{
+	width:80%;
+	margin: auto;
+        display: block;
+}
+
+
+#menu_btns
+{
+	float:left;
+	margin-top:25px;
+}
+
+#menu_btns a
+{
+	padding:4px 4px 4px 4px;
+	margin-right:10px;
+	font-size:12px;
+	font-weight:bold;
+	font-family: Arial;
+	color:white;
+	text-decoration:none;
+	background-color:#795FC5;
+	border-radius:6px;
+}
+
+#body{
+	width:auto;
+	margin:auto;
+}
+
+#errorMessage{
+	font-weight:bold;
+	font-family:Arial;
+	text-align:center;
+	color:red;
+}
+
+#signupfrm{
+	margin:auto;
+	width:400px;
+	color:black;
+}
+
+#signup_tb{
+	font-family:Arial;
+	margin:Auto;
+	border:2px black solid;
+	width:100%;
+	border-radius:8px;
+}
+
+#signup_tb caption
+{
+	font-weight:bold;
+	font-size:22px;
+	color:black;
+}
+
+#signup_tb input{
+	padding:8px 8px 8px 8px;
+	font-size:12px;
+}
+
+#signup_tb select{
+	padding:8px 8px 8px 8px;
+	font-size:12px;
+}
+
+#add_event_tb{
+	position:fixed;
+	z-index:6;
+	width:600px;
+	border-radius:14px;
+	background-color:#AA99DA;
+	font-family:Helvetica;
+	margin:0 0 0 300px;
+	display:none;
+}
+
+#online_panel{
+	
+	font-family: Helvetiva;
+	font-size: 12px;
+	font-weight:bold;
+	background-color:white;
+	width: 100%;
+}
+
+#member_online_scroll
+{
+	width:100%;
+	float: left;
+	overflow-y: auto;
+	max-height: 300px;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+    background: #4A338E;
+}
+
+/*Proffile Style Start*/
+#profile_body{
+			margin-top:5px;
+			background-color:#E4E4E4;
+			width:40%;
+			font-family:Arial;
+			color:white;
+			float:left;
+			margin-left:5%;
+			border-left:1px black solid;
+			border-bottom:1px black solid;
+			border-right:1px black solid;
+		}
+		
+		#profile_header
+		{
+			background-color:#4A338E;
+			width:100%;
+			font-weight:bold; 
+		}
+		
+		#userfullname_textview{
+			margin-top:25px;
+			font-size:30px;
+			text-align:left;
+		}
+		
+		#profile_menu{
+			text-align: center;
+                        background-color: white;
+                        display: block;
+		}
+
+		#profile_menu a{
+			text-decoration:none;
+			font-weight:bold;
+			color:black;
+                        /*background-color:#4A338E;*/
+			background-color:transparent;
+			border: 1px black solid;
+                        cursor: pointer;
+                        line-height: 40px;
+                        display: inline-block;
+                        font-size: 12px;
+                        padding-left: 6px;
+                        padding-right: 10px;
+                        border-radius: 4px;
+		}
+                
+                #profile_menu a:hover{
+                    background-color:#4A338E;
+                    color: white;
+                }
+		
+		.profile_title{
+			color:black;
+			font-family:arial;
+			font-weight:bold;	
+			padding:8px 8px 8px 8px;
+		}
+		
+		#gallery_body{
+			width:100%;	
+		}
+		
+		#picstatus button{
+			padding:6px 6px 6px 6px;
+			font-weight:bold;
+			border-radius:6px;	
+			border:none;
+		}
+		
+                #profile_menu_btn{
+                    
+                }
+                
+                #gallery_body{
+			width:100%;	
+		}
+		
+		.profilepic_btn
+		{
+			padding:8px 8px 8px 8px;
+			font-weight:bold;
+			color:white;
+			margin:auto;
+			background-color:#4A338E;
+			border:none;
+			border-radius:6px;
+		}
+                
+                .connection_style
+		{
+			border:1px black solid;
+			width:50%;
+			background-color:white;
+			float: left;
+		}
+
+		.connection_style_info
+		{
+			width:90%;
+			background-color:white;
+			float: left;
+		}
+
+		.connection_style_info button
+		{
+			background-color:#4A338E;
+			color: white;
+			border: none;
+			font-weight: bold;
+			font-size: 12px;
+			line-height: 25px;
+		}
+/*Profile Style End*/

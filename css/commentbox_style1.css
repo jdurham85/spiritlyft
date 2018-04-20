@@ -1,0 +1,289 @@
+/* #E9E5F5; */
+.post_panel{
+/*background-color: #E9E5F5;*/
+background-color:white;
+width:100%;
+display:table;
+margin-bottom:20px;
+font-family:Helvetica;
+border-radius: 6px;
+}
+
+#post_panelsub{
+width:100%;
+}
+
+#post_header .ph1{
+padding:6px 8px 8px 8px;
+}
+	
+#post_header .ph2{
+padding:6px 8px 0px 0px;
+}
+
+.ph2 button
+{
+background-color: #795FC5;
+color:white;
+border:none;
+border-radius:2px;	
+font-weight:bold;
+padding:6px 6px 6px 6px;	
+float:right;
+}
+	
+.upper_header
+{	
+	width:100%;
+	padding: 6px 0px 6px 0px;
+	font-size: 10px;
+	text-align: center;
+	background-color:white;
+}
+
+.post_header td button{
+background-color: #795FC5;
+color:white;
+border:none;
+border-radius:2px;	
+font-weight:bold;
+padding:6px 6px 6px 6px;	
+float:right;
+}
+
+#post_body{
+text-align:center;
+width:100%;
+margin-top:40px;
+margin-bottom: 20px;
+background-color:white;
+}
+
+#post_textview{
+margin-top:10px;
+font-family:Helvetica;
+text-align: center;
+}
+
+#post_footer{
+	text-align:left;
+}
+
+.upper_footer
+{
+	border-bottom:1px black solid;
+	padding:5px 0px 5px 0px;
+}
+
+.upper_footer button
+{
+	background-color: #795FC5;
+	color:white;
+	border:none;
+	border-radius:2px;	
+	font-weight:bold;
+	padding:6px 6px 6px 6px;
+}
+	
+
+.middle_footer td
+{
+	
+	padding:5px 0px 5px 0px;
+	/*background-color: #E0DAF0;*/
+	background-color:white;
+}
+.middle_footer button
+{
+	background-color: #795FC5;
+	color:white;
+	border:none;
+	border-radius:2px;	
+	font-weight:bold;
+	padding:6px 6px 6px 6px;
+}
+
+.lower_footer td
+{
+	/*background-color: #E9E5F5;*/
+	background-color:white;
+}
+
+.post_footer a{
+	text-decoration:none;
+	font-family: Arial;
+	font-size:10px;
+	font-weight:bold;
+}
+
+.post_footer button{
+	background-color:#795FC5;
+	color:white;
+	border:none;
+	border-radius:2px;	
+	font-weight:bold;
+	padding:6px 6px 6px 6px;
+	text-align:left;	
+}
+	
+.share_wall_panel
+{
+	background-color: #E9E5F5;	
+	width: 100px;
+	position: absolute;
+	z-index: 5;
+	right: 0;
+	border-radius: 4px;
+	margin-right: 27px;
+	display: none;
+}
+	
+.share_wall_panel_btn
+{
+	font-family: arial;
+	font-size: 12px;
+	font-weight: bold;
+	padding:15px 0px 15px 10px;
+	width: 100%;
+	background-color: white;
+	cursor: pointer;
+}
+	
+.share_wall_panel_btn:hover
+{
+	font-family: arial;
+	font-size: 12px;
+	font-weight: bold;
+	padding:15px 0px 15px 10px;
+	width: 100%;
+	background-color: #4A338E;
+	cursor: pointer;
+	color:white;
+}
+	
+
+.wallcomment_header
+{
+	/*background-color: #E9E5F5;*/
+	background-color:white;
+	font-size:12px;
+	padding:0px 0px 0px 0px;
+}
+	
+.wallcomment_header button
+{
+	background-color:#795FC5;
+	color:white;
+	border:none;
+	border-radius:2px;	
+	font-weight:bold;
+	padding:6px 6px 6px 6px;	
+}
+
+.wallcomment_inputbox
+{
+	padding:6px 0px 6px 0px;
+	width:100%;
+	/*background-color: #E9E5F5;*/
+	background-color:white;
+}
+
+.wallcomment_inputbox input
+{
+	padding:8px 8px 8px 8px;
+	width:100%;
+}
+
+.wallcomment_inner_element
+{
+	margin-left:10px; 
+	padding:0px 0px 12px 0px; 
+	float:right; 
+	width:100%;
+}
+	
+wallcomment_sub button
+{
+	padding: 2px 2px 2px 2px;	
+}
+
+.emojli_container
+{
+	background-color:white;
+	border-radius:8px;
+	font-family:Arial;
+	font-weight:bold;
+	font-size:10px;
+	position:relative;
+	width:100%;
+	display:none;
+}
+
+.emojli_container td:hover
+{
+	background-color:#4A338E;
+	color:white;
+	border-radius:8px;
+	font-family:Arial Black;
+	font-weight:bold;
+	font-size:10px;
+	cursor:pointer;
+}
+
+.wallcomment_emojli_container
+{
+	border-radius: 8px;
+	border: 1px black solid;
+	display: none;
+}
+
+.wallcomment_emojli_container td:hover
+{
+	background-color:#4A338E;
+	color:white;
+	border-radius:8px;
+	font-family:Arial Black;
+	font-weight:bold;
+	font-size:10px;
+	cursor:pointer;
+}
+
+.post_middle_footer
+{
+	line-height:40px;
+	/*background-color:white;*/
+	background-color:white;
+}
+
+.wallcomment_sub_inputbox
+{
+	display:none;
+	background-color:white;
+}
+
+#comment_bg{
+	width:100%;
+	height:600px;
+	text-align:center;
+	background-color:#4A338E;
+	position:relative;
+	z-index:4;
+	display:none;
+}
+
+#wall_frame
+{
+	width:100%;
+	background-color:#E9E5F5;
+	border-radius:8px;
+	color:black;
+}
+#wall_frame_btn
+{
+	width:100%;
+	background-color:#4A338E;
+	border-radius:8px;
+	color:white;
+	float: right;
+	font-weight: bold;
+}

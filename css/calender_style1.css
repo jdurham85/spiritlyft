@@ -1,0 +1,29 @@
+/* CSS Document */
+
+#calender_tb{
+	margin:auto;
+	width:80%;
+	font-family:Arial;
+	background-color:white;
+}
+
+#calender_tb caption{
+	font-size:32px;
+	font-weight:bold;
+	background-color:white;
+}
+
+.daysoftheweek{
+width:50%;	
+}
+
+.calender_day_style td{
+	text-align:center;
+	font-weight:bold;
+}
+
+.day_num_style
+{
+	float:left;
+	margin-top:-10px;
+}

@@ -1,0 +1,161 @@
+/* CSS Document */
+
+.autorotateimg90{
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+body
+{
+	/*background-color:#F7F5FB;*/
+	background-color:#EFECF7;
+	margin: auto;
+}
+
+#loginfrm
+{
+	float:right;
+	font-family:Arial;
+	font-size:14px;
+	margin-top: -45px;
+}
+
+#loginfrm input
+{
+	padding:6px 6px 6px 6px;
+	border:none;
+}
+
+#loginfrm button
+{
+	padding:6px 6px 6px 6px;
+	font-size:14px;
+}
+
+.forgot-password
+{
+	list-style:none;
+	color:white;
+	font-family:arial;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+header
+{
+	background-color:#4A338E;
+	color:white;
+	height:60px;
+	width:100%;
+	margin-top:-8px;
+	padding:0px 0px 1px 0px;
+}
+
+#header_sub
+{
+	width:900px;
+	margin: auto;
+}
+
+
+#menu_btns
+{
+	float:left;
+	margin-top:25px;
+}
+
+#menu_btns a
+{
+	padding:4px 4px 4px 4px;
+	margin-right:10px;
+	font-size:12px;
+	font-weight:bold;
+	font-family: Arial;
+	color:white;
+	text-decoration:none;
+	background-color:#795FC5;
+	border-radius:6px;
+}
+
+#body{
+	width:900px;
+	margin:auto;
+}
+
+#errorMessage{
+	font-weight:bold;
+	font-family:Arial;
+	text-align:center;
+	color:red;
+}
+
+#signupfrm{
+	margin:auto;
+	width:400px;
+	color:black;
+}
+
+#signup_tb{
+	font-family:Arial;
+	margin:Auto;
+	border:2px black solid;
+	width:100%;
+	border-radius:8px;
+}
+
+#signup_tb caption
+{
+	font-weight:bold;
+	font-size:22px;
+	color:black;
+}
+
+#signup_tb input{
+	padding:8px 8px 8px 8px;
+	font-size:12px;
+}
+
+#signup_tb select{
+	padding:8px 8px 8px 8px;
+	font-size:12px;
+}
+
+#add_event_tb{
+	position:fixed;
+	z-index:6;
+	width:600px;
+	border-radius:14px;
+	background-color:#AA99DA;
+	font-family:Helvetica;
+	margin:0 0 0 300px;
+	display:none;
+}
+
+#online_panel{
+	
+	font-family: Helvetiva;
+	font-size: 12px;
+	font-weight:bold;
+	background-color:white;
+	width: 100%;
+}
+
+#member_online_scroll
+{
+	position: fixed;
+	float: left;
+	width:16%;
+	overflow-y: auto;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%; 
+    border-radius: 50%;
+    background: #4A338E;
+}
